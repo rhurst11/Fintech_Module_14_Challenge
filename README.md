@@ -55,7 +55,7 @@ weighted avg       0.32      0.56      0.41      1090
 
 ### Tuning SMA Windows 
 
-#### Model with 4 day SMA and 30 day SMA, 3 month training offset 
+#### Model with 4 day SMA and 30 day SMA, 3 month training offset  (A4)
 
               precision    recall  f1-score   support
 
@@ -68,6 +68,15 @@ weighted avg       0.49      0.54      0.45      4147
 
 #### Model With 20 day SMA and 50 day SMA, 3 month 
 
+              precision    recall  f1-score   support
+
+        -1.0       0.00      0.00      0.00      1826
+         1.0       0.56      1.00      0.72      2321
+
+    accuracy                           0.56      4147
+   macro avg       0.28      0.50      0.36      4147
+weighted avg       0.31      0.56      0.40      4147
+
 ####
 
 
@@ -75,29 +84,55 @@ weighted avg       0.49      0.54      0.45      4147
 ### Tuning SMA Windows in Conjunction with Training Window Variation
 
 
-#### Long SMA Window = 30, Short SMA Window = 4, training duration = 24 months
 
-#### Long SMA Window = 30, Short SMA Window = 4, training duration = 30 months
+#### Long SMA Window = 30, Short SMA Window = 4, training duration = 45 months (A6)
 
-#### Long SMA Window = 30, Short SMA Window = 4, training duration = 45 months
+             precision    recall  f1-score   support
 
+        -1.0       0.00      0.00      0.00       555
+         1.0       0.55      1.00      0.71       682
 
-
-
-#### Long SMA Window = 50, Short SMA Window = 7, training duration = 24 months
-
-#### Long SMA Window = 50, Short SMA Window = 7, training duration = 30 months
-
-#### Long SMA Window = 50, Short SMA Window = 7, training duration = 45 months
+    accuracy                           0.55      1237
+   macro avg       0.28      0.50      0.36      1237
+weighted avg       0.30      0.55      0.39      1237
 
 
 
+#### Long SMA Window = 10, Short SMA Window = 4, training duration = 45 months (A7)
 
-#### Long SMA Window = 100, Short SMA Window = 30, training duration = 24 months
+           precision    recall  f1-score   support
 
-#### Long SMA Window = 100, Short SMA Window = 30, training duration = 30 months
+        -1.0       0.00      0.00      0.00       563
+         1.0       0.55      1.00      0.71       700
 
-#### Long SMA Window = 100, Short SMA Window = 30, training duration = 45 months
+    accuracy                           0.55      1263
+   macro avg       0.28      0.50      0.36      1263
+weighted avg       0.31      0.55      0.40      1263
+
+
+#### Long SMA Window = 10, Short SMA Window = 4, training duration = 10 months (A8)
+
+              precision    recall  f1-score   support
+
+        -1.0       0.00      0.00      0.00      1676
+         1.0       0.56      1.00      0.72      2148
+
+    accuracy                           0.56      3824
+   macro avg       0.28      0.50      0.36      3824
+weighted avg       0.32      0.56      0.40      3824
+
+
+#### Long SMA Window = 10, Short SMA Window = 4, training duration = 3 months (A9)
+
+              precision    recall  f1-score   support
+
+        -1.0       0.00      0.00      0.00      1834
+         1.0       0.56      1.00      0.72      2328
+
+    accuracy                           0.56      4162
+   macro avg       0.28      0.50      0.36      4162
+weighted avg       0.31      0.56      0.40      4162
+
 
 
 ## Tuned Model With Best Results
