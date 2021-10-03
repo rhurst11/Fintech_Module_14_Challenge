@@ -10,7 +10,7 @@
 
     accuracy                           0.55      4092
    macro avg       0.49      0.50      0.39      4092
-   weighted avg       0.50      0.55      0.43      4092
+weighted avg       0.50      0.55      0.43      4092
 
 
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_Original_Mod_Perform.png)
