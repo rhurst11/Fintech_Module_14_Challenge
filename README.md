@@ -1,6 +1,6 @@
 # Fintech_Module_14_Challenge
 
-## Original Model
+## Original Model Performance
 4 day Short SMA 100 day Long SMA, trainiing window = 3 months
 
               precision    recall  f1-score   support
@@ -12,7 +12,8 @@
    macro avg       0.49      0.50      0.39      4092
 weighted avg       0.50      0.55      0.43      4092
 
-### Performance
+
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_Original_Mod_Perform.png)
 
 
 ## Tuning Process
@@ -31,6 +32,9 @@ weighted avg       0.50      0.55      0.43      4092
    macro avg       0.68      0.50      0.36      2794
 weighted avg       0.67      0.56      0.41      2794
 
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_A1_perform.png)
+
+
 #### Model with 30 month training window (alternative 2 ... roughly 50% of dataset used for training)
 
               precision    recall  f1-score   support
@@ -42,6 +46,9 @@ weighted avg       0.67      0.56      0.41      2794
    macro avg       0.28      0.50      0.36      2309
 weighted avg       0.31      0.55      0.40      2309
 
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_A2_perform.png)
+
+
 #### Model with 45 month training window (Alternative 3 ... roughly 75% of dataset used for training)
 
               precision    recall  f1-score   support
@@ -52,6 +59,9 @@ weighted avg       0.31      0.55      0.40      2309
     accuracy                           0.56      1090
    macro avg       0.28      0.50      0.36      1090
 weighted avg       0.32      0.56      0.41      1090
+
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_A3_perform.png)
+
 
 ### Tuning SMA Windows 
 
@@ -66,6 +76,9 @@ weighted avg       0.32      0.56      0.41      1090
    macro avg       0.48      0.49      0.42      4147
 weighted avg       0.49      0.54      0.45      4147
 
+![alt text]()
+
+
 #### Model With 20 day SMA and 50 day SMA, 3 month 
 
               precision    recall  f1-score   support
@@ -76,6 +89,9 @@ weighted avg       0.49      0.54      0.45      4147
     accuracy                           0.56      4147
    macro avg       0.28      0.50      0.36      4147
 weighted avg       0.31      0.56      0.40      4147
+
+![alt text]()
+
 
 ####
 
@@ -96,6 +112,7 @@ weighted avg       0.31      0.56      0.40      4147
    macro avg       0.28      0.50      0.36      1237
 weighted avg       0.30      0.55      0.39      1237
 
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/A6.png)
 
 
 #### Long SMA Window = 10, Short SMA Window = 4, training duration = 45 months (A7)
@@ -109,6 +126,8 @@ weighted avg       0.30      0.55      0.39      1237
    macro avg       0.28      0.50      0.36      1263
 weighted avg       0.31      0.55      0.40      1263
 
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/A7.png)
+
 
 #### Long SMA Window = 10, Short SMA Window = 4, training duration = 10 months (A8)
 
@@ -120,6 +139,8 @@ weighted avg       0.31      0.55      0.40      1263
     accuracy                           0.56      3824
    macro avg       0.28      0.50      0.36      3824
 weighted avg       0.32      0.56      0.40      3824
+
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/A8.png)
 
 
 #### Long SMA Window = 10, Short SMA Window = 4, training duration = 3 months (A9)
@@ -133,6 +154,7 @@ weighted avg       0.32      0.56      0.40      3824
    macro avg       0.28      0.50      0.36      4162
 weighted avg       0.31      0.56      0.40      4162
 
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/A9.png)
 
 
 ## Tuned Model With Best Results
