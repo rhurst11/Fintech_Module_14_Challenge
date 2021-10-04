@@ -248,6 +248,14 @@ It seems that more trading indicators would be needed to generate any real devia
 
 #### Model With 20 day SMA and 50 day SMA, 10 month (LogA6)
 
+              precision    recall  f1-score   support
+
+        -1.0       0.55      0.03      0.06       535
+         1.0       0.56      0.98      0.71       665
+
+    accuracy                           0.56      1200
+
+
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/LogA6.png)
 
 ## Conclusions of Logistic Regression Model With Best Results (Question 3)
