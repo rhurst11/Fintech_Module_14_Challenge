@@ -246,6 +246,15 @@ It seems that more trading indicators would be needed to generate any real devia
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/LogA5.png)
 
 
+#### Model With 20 day SMA and 50 day SMA, 10 month (LogA5)
 
-## Conclusions of Logistic Regression Model With Best Results
+![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/LogA6.png)
 
+## Conclusions of Logistic Regression Model With Best Results (Question 3)
+
+The logistic regression model with the best results was the model trained on roughly 75% of the dataset (45 months). It makes sense that training size is such a critical factor, but it is surprising that variation in our trade indicators had such little impact for both model types. It does seem that a more robust set of trading indicators could benefit strategy returns. 
+
+
+## Final Evaluation: (Question 4)
+
+Overall, it seems that more technical indicators would be needed to get more variety in model performance. However, it is interesting to see how heavily training size impacts the strategy returns, but almost all strategy returns seem to fall between 2 performance patterns. This duality in model performance makes me think that overfitting could certainly be forcing our models into a buy-side biased behavior. 
