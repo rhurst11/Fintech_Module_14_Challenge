@@ -246,13 +246,13 @@ It seems that more trading indicators would be needed to generate any real devia
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/LogA5.png)
 
 
-#### Model With 20 day SMA and 50 day SMA, 10 month (LogA5)
+#### Model With 20 day SMA and 50 day SMA, 10 month (LogA6)
 
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/LogA6.png)
 
 ## Conclusions of Logistic Regression Model With Best Results (Question 3)
 
-The logistic regression model with the best results was the model trained on roughly 75% of the dataset (45 months). It makes sense that training size is such a critical factor, but it is surprising that variation in our trade indicators had such little impact for both model types. It does seem that a more robust set of trading indicators could benefit strategy returns. 
+The logistic regression model with the best results was the model trained on roughly 75% of the dataset (45 months) (LogA6). It makes sense that training size is such a critical factor, but it is surprising that variation in our trade indicators had such little impact for both model types. It does seem that a more robust set of trading indicators could benefit strategy returns. 
 
 
 ## Final Evaluation: (Question 4)
