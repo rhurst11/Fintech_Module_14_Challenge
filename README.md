@@ -1,4 +1,4 @@
- b"p0-# Fintech_Module_14_Challenge
+# Fintech_Module_14_Challenge
 
 ## Original Model Performance
 4 day Short SMA 100 day Long SMA, trainiing window = 3 months
@@ -14,6 +14,13 @@ weighted avg       0.50      0.55      0.43      4092
 
 
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/Mod_14_Original_Mod_Perform.png)
+
+
+
+### Conclusions of Original Model Performance (Question 1):
+
+A few things become clear from looking at the classification report of the original model, as well as the visual comparison of strategy returns vs actual returns. First of all, the recall value for our sell-side indicators are quite low. This lacking recall should not be an issue as long our strategy returns perform well, but they do not in this instance, In fact, strategy returns woefully underperform our benchmarck actual returns. 
+
 
 
 ## Tuning Process
@@ -183,6 +190,17 @@ weighted avg       0.32      0.56      0.41      3729
 ![alt text](https://github.com/rhurst11/Fintech_Module_14_Challenge/blob/main/Starter_Code/Resources/A10.png)
 
 
+
+## Conclusions of tuned SVC Model With Best Results (Question 2)
+
+Interestingly, the majority of the changes I made in SMA window size impacted the strategy returns to a negligible degree. however, this was not always the case, especially when training duration was increased. The models that generated the best returns had training windows of between 50-80% of the entire dataset used for both training and testing. 
+
+Models A2, A3, A6, AND A7 generate nearly-identical returns. They all follow a training window of at least 24 months, most are closer to 30-45 (all of this info is present up above in detail)
+
+It seems that more trading indicators would be needed to generate any real deviation from the trend in strategy returns, regardless of SMA window size.
+
+
+
 ## Classifer Change: Logistic Regression
 
 #### Model with 4 day SMA and 100 day SMA, 3 month training offset  (LogA1) (Original Training Data)
@@ -244,5 +262,5 @@ weighted avg       0.53      0.56      0.42      3729
 
 
 
-## Tuned Model With Best Results
+## Conclusions of Logistic Regression Model With Best Results
 
